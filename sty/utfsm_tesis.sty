@@ -371,6 +371,7 @@ con el estilo de documento `report'}{Usted debería leer la documentación de UT
 \def\nolistoffigures{\figurespagefalse}
 \def\nolistoftables{\tablespagefalse}
 \def\nofront{\front@pagesfalse\permissionfalse\figurespagefalse\tablespagefalse}
+\def\notapafirmas{\front@pagesfalse}
 
 % New if constructs:    Default conditions:
 \newif\ifpermission     \permissiontrue
@@ -385,9 +386,6 @@ con el estilo de documento `report'}{Usted debería leer la documentación de UT
 \newif\ifdraft@mode     \draft@modefalse
 \newif\ifprint@bib      \print@bibtrue
 \newif\ifdedic@tion     \dedic@tionfalse
-\newif\iftapafirmas@pages   \tapafirmas@pagestrue
-
-\def\notapafirmas{\poradafirmas@pagesfalse}
 
 \def\no@breaks#1{{\def\\{ \ignorespaces}#1}}    % disallow explicit line breaks
 
